@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DialogDemo</string>
+    <string name="button_normal_2_dialog">普通对话框(2个按钮)</string>
+    <string name="button_normal_3_dialog">普通对话框(3个按钮)</string>
+    <string name="button_single_choice_dialog">单选对话框</string>
+    <string name="button_multiple_choice_dialog">多选对话框</string>
+    <string name="button_list_dialog">列表对话框</string>
+    <string name="button_input_box_dialog">简单输入对话框</string>
+    <string name="button_custom_dialog">自定义对话框</string>
+
+</resources>

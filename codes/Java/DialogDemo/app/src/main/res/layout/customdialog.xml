@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext_user_id"
+        android:hint="输入用户名称"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext_user_password"
+        android:inputType="textPassword"
+        android:hint="输入用户密码"
+        android:textColor="@color/colorPrimaryDark" />
+
+
+</LinearLayout>

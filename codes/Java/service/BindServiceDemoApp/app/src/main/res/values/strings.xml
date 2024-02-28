@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BindServiceDemoApp</string>
+    <string name="start_service_name">启动服务</string>
+    <string name="stop_service_name">停止服务</string>
+    <string name="add_name">加</string>
+    <string name="sub_name">减</string>
+    <string name="mul_name">乘</string>
+    <string name="div_name">除</string>
+</resources>

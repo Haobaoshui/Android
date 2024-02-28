@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+   >
+    <!--图片形状：rectangle矩形，oval椭圆，line横线，ring圆环。-->
+
+    <!--和solid标签互斥，表示渐变效果
+    angle：渐变角度，必须是45的整数倍，0表示从左到右，90表示从上到下
+    centerX: 渐变中心点横坐标
+    centerY：渐变中心点纵坐标
+    startColor：渐变的起色
+    centerColor：渐变的中间色
+    endColor：渐变的结束色
+    gradientRadius：渐变半径，只有type=radial时有效
+    type：渐变的类型（linear线性渐变,radial径向渐变,sweep扫描线渐变）
+    useLevel：作StateListDrawable用时为true
+    -->
+    <gradient android:angle="45"
+        android:centerColor="@color/colorAccent"
+        android:centerX="0.5"
+        android:centerY="0.5"
+        android:endColor="@color/colorPrimary"
+        android:gradientRadius="5dp"
+        android:startColor="@android:color/holo_red_light"
+        android:type="linear"
+        android:useLevel="true"/>
+
+
+
+    <!--四个角的角度，只适用于rectangle矩形，radius会被其他属性覆盖-->
+   <corners android:radius="8dp"/>
+</shape>

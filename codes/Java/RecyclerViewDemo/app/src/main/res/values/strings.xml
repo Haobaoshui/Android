@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RecyclerViewDemo</string>
+    <string name="button_send_message">发送</string>
+</resources>

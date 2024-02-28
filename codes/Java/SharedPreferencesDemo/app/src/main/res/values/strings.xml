@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SharedPreferencesDemo</string>
+    <string name="write_data">写数据</string>
+    <string name="read_data">读数据</string>
+    <string name="key_name">name</string>
+    <string name="key_age">age</string>
+    <string name="key_address">address</string>
+</resources>

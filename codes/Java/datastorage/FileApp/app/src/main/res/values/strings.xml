@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FileApp</string>
+    <string name="btn_write">Write Data to File</string>
+    <string name="btn_read">Read Data from File</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">IntentAlarmApp</string>
+    <string name="title_activity_alarm">AlarmActivity</string>
+</resources>

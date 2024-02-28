@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SharedPreferencesApp</string>
+    <string name="btn_write">Write Data to SharedPreferences</string>
+    <string name="btn_read">Read Data from SharedPreferences</string>
+</resources>

@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.edu.bistu.cs.se.mywordsapp.WordDetailFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|top">
+
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/word"/>
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/wordmeaning"/>
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/wordsample"/>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SDFileApp</string>
+    <string name="btn_write">Write Data to SD</string>
+    <string name="btn_read">Read Data from SD</string>
+</resources>

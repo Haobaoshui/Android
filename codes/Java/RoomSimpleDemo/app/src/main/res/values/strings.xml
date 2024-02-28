@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RoomSimpleDemo</string>
+    <string name="db_insert">Insert</string>
+    <string name="db_delete">Delete</string>
+    <string name="db_delete_all">Delete All</string>
+    <string name="db_update">Update</string>
+    <string name="db_query">Query</string>
+</resources>

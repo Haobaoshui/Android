@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--启动服务-->
+    <Button
+        android:id="@+id/buttonStartService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_service_name"
+        android:onClick="onButtonStartServiceClick"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--终止服务-->
+    <Button
+        android:id="@+id/buttonStopService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stop_service_name"
+        android:onClick="onButtonStopServiceClick"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonStartService" />
+
+    <!--使用服务的加法功能-->
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_name"
+        android:onClick="onButtonAddClick"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonStopService" />
+
+    <!--使用服务的减法功能-->
+    <Button
+        android:id="@+id/buttonSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sub_name"
+        android:onClick="onButtonSubClick"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAdd" />
+
+    <!--使用服务的乘法功能-->
+    <Button
+        android:id="@+id/buttonMul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mul_name"
+        android:onClick="onButtonMulClick"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSub" />
+
+    <!--使用服务的除法功能-->
+    <Button
+        android:id="@+id/buttonDiv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/div_name"
+        android:onClick="onButtonDivClick"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMul" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main"
+    tools:context="cn.edu.bistu.cs.se.tablelayoutapp.MainActivity"
+    >
+
+    <Button
+        android:id="@+id/ButtonUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <Button
+            android:id="@+id/ButtonOpen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open"
+            android:textAllCaps="false"
+            />
+        <Button
+            android:id="@+id/ButtonSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textAllCaps="false"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/ButtonPrint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Print" />
+        <Button
+            android:id="@+id/ButtonExit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exit" />
+    </TableRow>
+
+
+</TableLayout >

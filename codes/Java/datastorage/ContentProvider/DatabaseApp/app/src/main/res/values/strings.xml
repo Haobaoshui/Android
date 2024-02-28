@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DatabaseApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_all">显示全部单词</string>
+    <string name="action_search">查找</string>
+    <string name="action_insert">新增</string>
+    <string name="action_delete">删除</string>
+    <string name="action_update">修改</string>
+</resources>

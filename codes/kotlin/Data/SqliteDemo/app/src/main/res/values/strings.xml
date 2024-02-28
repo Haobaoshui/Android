@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SqliteDemo</string>
+    <string name="db_insert_method">Insert 方法</string>
+    <string name="db_delete_method">Delete 方法</string>
+    <string name="db_update_method">Update 方法</string>
+    <string name="db_query_method">Query 方法</string>
+
+    <string name="db_insert_sql">Insert SQL</string>
+    <string name="db_delete_sql">Delete SQL</string>
+    <string name="db_update_sql">Update SQL</string>
+    <string name="db_query_sql">Query SQL</string>
+</resources>

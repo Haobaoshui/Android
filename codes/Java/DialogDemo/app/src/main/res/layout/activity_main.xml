@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--普通对话框（2个按钮）-->
+    <Button
+        android:id="@+id/normalDialogButton"
+        android:text="@string/button_normal_2_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onNormalDialogButtonClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <!--普通对话框(3个按钮)-->
+    <Button
+        android:id="@+id/normal3DialogButton"
+        android:text="@string/button_normal_3_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onNormal3DialogButtonClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/normalDialogButton"/>
+
+    <!--单选对话框-->
+    <Button
+        android:id="@+id/singleChoiceDialogButton"
+        android:text="@string/button_single_choice_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onSingleChoiceDialogButtonClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/normal3DialogButton"/>
+
+    <!--多选对话框-->
+    <Button
+        android:id="@+id/multipleChoiceDialogButton"
+        android:text="@string/button_multiple_choice_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onMultipleChoiceDialogButtonClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/singleChoiceDialogButton"/>
+
+    <!--列表对话框-->
+    <Button
+        android:id="@+id/listDialogButton"
+        android:text="@string/button_list_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onListDialogButtonClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/multipleChoiceDialogButton"/>
+
+    <!--列表对话框-->
+    <Button
+        android:id="@+id/inputBoxDialogButton"
+        android:text="@string/button_input_box_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onInputBoxDialogButtonClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listDialogButton"/>
+
+    <!--自定义对话框-->
+    <Button
+        android:id="@+id/customChoiceDialogButton"
+        android:text="@string/button_custom_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCustomDialogButtonClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputBoxDialogButton"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

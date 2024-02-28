@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items">
+        <item>李白</item>
+        <item>杜甫</item>
+        <item>白居易</item>
+        <item>王维</item>
+        <item>李商隐</item>
+        <item>杜牧</item>
+    </string-array>
+</resources>

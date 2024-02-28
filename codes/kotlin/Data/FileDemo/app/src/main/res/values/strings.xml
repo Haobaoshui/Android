@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FileDemo</string>
+    <string name="write_data">写文件</string>
+    <string name="read_data">读文件</string>
+</resources>
