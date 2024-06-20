@@ -1,4 +1,4 @@
-package cn.edu.bistu.cs.se.cameraxsimple.ui.theme
+package com.example.exoplayersimpleapplication.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

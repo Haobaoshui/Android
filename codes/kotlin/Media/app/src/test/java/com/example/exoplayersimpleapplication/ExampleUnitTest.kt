@@ -1,4 +1,4 @@
-package cn.edu.bistu.cs.se.cameraxsimple
+package com.example.exoplayersimpleapplication
 
 import org.junit.Test
 
